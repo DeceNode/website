@@ -22,3 +22,13 @@
     transform: rotate(360deg);
   }
 }
+
+.our-solution {
+  padding: 2em 4em;
+}
+
+@media (min-width: 768px) {
+  .our-solution {
+    padding: 4em 16em;
+  }
+}

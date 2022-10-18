@@ -6,7 +6,7 @@ import Headline from "./Headline";
 
 const ProblemSpace = () => {
     return (
-        <div className="problem-space">
+        <div className="problem-space mb-5">
             <Row className="align-items-center">
                 <Col md="6">
                     <ImageResponsive src="Illustration-Problem-Space.svg" alt="problem space" />
