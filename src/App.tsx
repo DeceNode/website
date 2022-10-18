@@ -16,7 +16,7 @@ function App() {
 
           <ImageResponsive src="Illustration-Solution.svg" alt="Illustration-Solution" className="mb-3" />
 
-          <p>Decenode is an exponential platform resembling an "AirBNB for Computers", provides cost and time-efficient computation to AI and ML developers through its decentralized P2P network, along with the benefit of optimized computation by leveraging distributed computing.</p>
+          <p className="fs-5">Decenode is an exponential platform resembling an "AirBNB for Computers", provides cost and time-efficient computation to AI and ML developers through its decentralized P2P network, along with the benefit of optimized computation by leveraging distributed computing.</p>
         </div>
       </Container>
     </div>
