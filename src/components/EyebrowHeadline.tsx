@@ -9,7 +9,7 @@ type EyebrowHeadlineProps = {
 
 const EyebrowHeadline = ({ headline }: EyebrowHeadlineProps) => {
     return (
-        <span className="eyebrow text-primary text-uppercase">{headline}</span>
+        <span className="eyebrow text-primary text-uppercase fw-bold">{headline}</span>
     );
 }
 
