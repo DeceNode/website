@@ -4,7 +4,7 @@ type HeadlineProps = {
 
 const Headline = ({ headline }: HeadlineProps) => {
     return (
-        <h2 className="my-3 fw-bolder">{headline}</h2>
+        <h3 className="my-3 fw-bolder">{headline}</h3>
     );
 }
 

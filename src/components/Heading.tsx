@@ -3,7 +3,7 @@ type HeadingProps = {
 };
 
 const Heading = ({ children }: HeadingProps) => {
-  return <h2 className="h1 fw-bolder">{children}</h2>;
+  return <h2 className="h1 fw-bolder mb-3">{children}</h2>;
 };
 
 export default Heading;
