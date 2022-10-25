@@ -21,10 +21,10 @@ function App() {
             <Col md="6">
               <Headline headline="AI and ML Developers" />
               <p>By providing access to computing which is</p>
-              <ul>
-                <li><BsCheck2Circle />Affordable</li>
-                <li><BsCheck2Circle />Time-Efficient</li>
-                <li><BsCheck2Circle />Optimized</li>
+              <ul className='list-unstyled'>
+                <li className='mb-3'><BsCheck2Circle className='me-2 color-success' />Affordable</li>
+                <li className='mb-3'><BsCheck2Circle className='me-2' />Time-Efficient</li>
+                <li className='mb-3'><BsCheck2Circle className='me-2' />Optimized</li>
               </ul>
               <p>alongside facilitating easy development with features like</p>
               <ul>
