@@ -19,7 +19,7 @@ const ProblemSpace = () => {
           <Heading>
             <>
               Computation is{" "}
-              <span className="text-primary">expensive and time-consuming</span>
+              <span className="text-primary-gradient">expensive and time-consuming</span>
               .
             </>
           </Heading>

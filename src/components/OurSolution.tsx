@@ -14,7 +14,7 @@ const OurSolution = () => {
         <EyebrowHeadline headline="Our Solution" />
         <Heading>
           <>
-            Our <span className="text-primary">decentralized marketplace</span>{" "}
+            Our <span className="text-primary-gradient">decentralized marketplace</span>{" "}
             platform enables
           </>
         </Heading>

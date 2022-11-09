@@ -3,11 +3,11 @@ import ImageResponsive from "./ImageResponsive";
 
 const Introduction = () => {
   return (
-    <div className="introduction text-center shadow rounded-4 mb-5">
+    <div className="introduction text-center shadow rounded-4 mb-5 p-5">
       <Heading>
         <>
-          Introducing Decenode, a <span className="text-primary">cheaper</span>{" "}
-          & <span className="text-primary">quicker</span> way to compute.
+          Introducing Decenode, a <span className="text-primary-gradient">cheaper</span>{" "}
+          & <span className="text-primary-gradient">quicker</span> way to compute.
         </>
       </Heading>
 

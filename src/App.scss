@@ -1,0 +1,9 @@
+$primary: #7151A9;
+
+@import "~bootstrap/scss/bootstrap.scss";
+
+.text-primary-gradient {
+    background: linear-gradient(to bottom, #C7ADFF 0%, #7151A9 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
