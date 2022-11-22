@@ -1,9 +1,15 @@
-$primary: #7151A9;
+$primary: #7151a9;
 
 @import "~bootstrap/scss/bootstrap.scss";
 
 .text-primary-gradient {
-    background: linear-gradient(to bottom, #C7ADFF 0%, #7151A9 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+  background: linear-gradient(to bottom, #c7adff 0%, #7151a9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.introduction-parent {
+  background-image: url("../public/stacked-waves-haikei-3.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
