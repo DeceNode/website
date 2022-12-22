@@ -1,9 +1,10 @@
 type HeadingProps = {
   children: JSX.Element;
+  className?: string;
 };
 
-const Heading = ({ children }: HeadingProps) => {
-  return <h2 className="h1 fw-bolder mb-3">{children}</h2>;
+const Heading = ({ children, className = "" }: HeadingProps) => {
+  return <h2 className={`display-4 fw-bolder mt-2 mb-4 ${className}`}>{children}</h2>;
 };
 
 export default Heading;
