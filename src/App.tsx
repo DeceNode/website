@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App lh-lg" style={{ fontSize: "22px" }}>
+    <div className="App" style={{ fontSize: "22px" }}>
       {/* <Container> */}
       <Landing />
       <ProblemSpace />
