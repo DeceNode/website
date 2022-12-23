@@ -22,30 +22,30 @@ const Features = () => {
         </div>
         <div className="features py-5">
           <FeatureCard icon={<BsCashCoin size={48} />} title="Payments in FIAT Currencies">
-            <p>
+            <>
               Unlike Web3.0 platforms, we operate on{" "}
               <span className="fw-bold">non-volatile, non-crypto</span> payment
               methods using simple, <span className="fw-bold">day-to-day</span>{" "}
               currencies.
-            </p>
+            </>
           </FeatureCard>
 
           <FeatureCard icon={<BsFileEarmarkCode size={48} />} title="Curated for ML Developers">
-            <p>
+            <>
               Our user-friendly platform facilitates <span className="fw-bold">quick and easy</span> ML development via specialized tools like one-step plugin systems and distributed computing.
-            </p>
+            </>
           </FeatureCard>
 
           <FeatureCard icon={<BsShieldCheck size={48} />} title="Secure & Robust Technology">
-            <p>
+            <>
               Our backend is secured by <span className="fw-bold">robust encryption protocols</span> enabling you to use computing resources globally without worrying about any security concerns.
-            </p>
+            </>
           </FeatureCard>
 
           <FeatureCard icon={<BsSpeedometer2 size={48} />} title="Quick Connection Speeds">
-            <p>
+            <>
               Connecting to servers in close proximity ensures <span className="fw-bold">low network latency</span> resulting into faster and <span className="fw-bold">time-efficient</span> developement.
-            </p>
+            </>
           </FeatureCard>
 
         </div>
