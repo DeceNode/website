@@ -13,16 +13,17 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App" style={{ fontSize: "22px" }}>
+    // <div className="App" style={{ fontSize: "22px" }}>
+    <div className="App">
       {/* <Container> */}
-      <Landing />
+      < Landing />
       <ProblemSpace />
       <Introduction />
       <OurSolution />
       <Features />
       <Footer />
       {/* </Container> */}
-    </div>
+    </div >
   );
 }
 

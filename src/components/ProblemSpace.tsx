@@ -6,8 +6,8 @@ import Heading from "./Heading";
 
 const ProblemSpace = () => {
   return (
-    <Container>
-      <div className="problem-space mb-5">
+    <div className="problem-space p-3 p-md-5">
+      <Container>
         <Row className="align-items-center">
           <Col md="6">
             <ImageResponsive
@@ -33,8 +33,8 @@ const ProblemSpace = () => {
             />
           </Col>
         </Row>
-      </div>
-    </Container>
+      </Container>
+    </div>
   );
 };
 

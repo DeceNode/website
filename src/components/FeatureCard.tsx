@@ -8,7 +8,7 @@ type FeatureCardProps = {
 
 const FeatureCard = ({ icon, title, children }: FeatureCardProps) => {
   return (
-    <Card style={{ width: "24rem" }} className="text-center text-light bg-transparent border border-2 border-light">
+    <Card className="text-center text-light bg-transparent border border-2 border-light">
       <div className="c-header position-relative">
         <div className="text-light p-3 rounded-circle position-absolute" style={{ left: "50%", transform: "translate(-50%, -50%)", background: "linear-gradient(180deg, #C7ADFF 0%, #7151A9 100%)" }}>
           {icon}

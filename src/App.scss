@@ -1,6 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
+$font-size-base: 1.25rem;
+
 $primary: #7151a9;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3),
+  6: ($spacer * 5),
+  7: ($spacer * 7.5),
+  8: ($spacer * 10)
+);
 
 @import "~bootstrap/scss/bootstrap.scss";
 
@@ -20,9 +35,9 @@ body {
   // background-size: cover;
 }
 
-.features {
+.feature-cards {
   display: grid;
-  grid-gap: 3em;
+  grid-gap: 4em;
   align-items: center;
   justify-content: center;
   grid-template-areas:
@@ -69,7 +84,7 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-  .features {
+  .feature-cards {
     grid-template-areas:
       "payment developer speed"
       "payment robust speed";
