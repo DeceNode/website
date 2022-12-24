@@ -7,7 +7,7 @@ const Footer = () => {
     return (
 
         <div className="footer text-light pb-3 overflow-hidden" style={{ backgroundColor: "#654A90" }}>
-            <img src="footer-wave-top.svg" style={{ backgroundColor: "#3F3649" }} />
+            <img src="footer-wave-top.svg" style={{ backgroundColor: "#3F3649" }} alt="wave pattern" />
             <Container>
                 <Row>
                     <Col md="auto" className="text-center">© 2023 Decenode FZ-LLC</Col>

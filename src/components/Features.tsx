@@ -6,7 +6,7 @@ import { BsCashCoin, BsFileEarmarkCode, BsShieldCheck, BsSpeedometer2 } from "re
 const Features = () => {
   return (
     <>
-      <img src="wave-pattern.svg" style={{ width: "100%" }} />
+      <img src="wave-pattern.svg" style={{ width: "100%" }} alt="wave pattern" />
       <div style={{ backgroundColor: "#3F3649" }}>
         <div className="section-header text-center mb-5">
           <EyebrowHeadline headline="Unique features" className="text-light" />
