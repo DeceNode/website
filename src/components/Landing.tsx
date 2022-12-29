@@ -1,8 +1,39 @@
 import { useState, FormEvent } from "react";
 import axios from 'axios';
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
+import AnimatedText from "./AnimatedText";
+import {motion} from "framer-motion";
 
 const Landing = () => {
+
+  const placeholderText = [
+    { type: "heading1", text: "Sharing Power" },
+    
+  ];
+
+  const placeholderText2 = [  { type: "heading2", text: "One Click Away" },
+    
+];
+
+  const container = {
+    visible: {
+      // opacity: 1,
+      transition: {
+        staggerChildren: 0.03,
+      }
+    }
+  };
+
+  const container1 = {
+    visible: {
+      // opacity: 1,
+      transition: {
+        staggerChildren: 0.02,
+      },
+      
+    }
+  };
+
   const [loading, setLoading] = useState(false);
   const [email, setEmail] = useState('');
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
@@ -30,17 +61,38 @@ const Landing = () => {
         <div className="text position-relative" style={{ zIndex: "10" }}>
           <Row>
             <Col xxl="8">
-              <h1 className="fw-bolder display-1"><span className="text-primary-gradient">Sharing Power</span> <br /> One Click Away.</h1>
-              <p>We enable Machine Learning Developers gain access to affordable computation by leveraging the power of idle machines hosted on our decentralized P2P network.</p>
+             {/* <motion.div> */}
+              {/* <h1 className="fw-bolder display-1"><span className="text-primary-gradient">  */}
+              <motion.div initial="hidden" whileInView="visible" variants={container}>{placeholderText.map((item, index) => {
+        return <AnimatedText {...item} key={index} className="text-primary-gradient"/>;
+      })}</motion.div> 
+
+      <motion.div  initial="hidden"  whileInView="visible"
+   variants={container1}>{placeholderText2.map((item, index) => {
+        return <AnimatedText {...item} key={index} className="text-light"/>;
+      })}</motion.div> 
+      
+      {/* <h1 className="fw-bolder display-1"> <br /> One Click Away. </h1> */}
+      {/* </span></h1>  */}
+      {/* </motion.div>  */}
+              <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:2.5, duration:0.75}}>
+                <p >We enable Machine Learning Developers gain access to affordable computation by leveraging the power of idle machines hosted on our decentralized P2P network.</p>
               <Form className="my-md-5" onSubmit={handleSubmit}>
                 <Row className="align-items-start">
                   <Col md="8" className="mb-2 mb-md-0">
                     <Form.Control type="email" placeholder="Enter Email" size="lg" name="Email" onChange={(e) => setEmail(e.target.value)} value={email} />
                   </Col>
                   <Col md="4">
+                  <motion.div
+              whileHover={{ scale: 1.1, borderRadius: "100%" }}
+              whileTap={{
+              scale: 0.8,
+              // rotate: -90,
+              borderRadius: "100%"
+              }}>
                     <Button variant="primary" type="submit" size="lg" className={`w-100 ${loading ? 'disabled' : ''}`}>
                       Join the waitlist
-                    </Button>
+                    </Button> </motion.div>
                   </Col>
                   <Col>
                     <Form.Text className="text-light">
@@ -49,6 +101,7 @@ const Landing = () => {
                   </Col>
                 </Row>
               </Form>
+            </motion.div>
             </Col>
           </Row>
         </div>

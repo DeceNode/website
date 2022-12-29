@@ -3,8 +3,22 @@ import EyebrowHeadline from "./EyebrowHeadline";
 import Heading from "./Heading";
 import { BsCashCoin, BsFileEarmarkCode, BsShieldCheck, BsSpeedometer2 } from "react-icons/bs";
 import { Container } from "react-bootstrap";
+import {motion} from "framer-motion";
+
 
 const Features = () => {
+
+  const container = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.5, 
+        ease:"easeInOut"
+      }
+    }
+  }
+
   return (
     <div className="features">
       <img src="wave-pattern.svg" style={{ width: "100%" }} alt="wave pattern" />
@@ -22,7 +36,9 @@ const Features = () => {
               </>
             </Heading>
           </div>
-          <div className="feature-cards py-5">
+          <motion.div variants={container}
+    initial="hidden"
+    whileInView="show" className="feature-cards py-5">
             <FeatureCard icon={<BsCashCoin size={48} />} title="Payments in FIAT Currencies">
               <>
                 Unlike Web3.0 platforms, we operate on{" "}
@@ -50,7 +66,7 @@ const Features = () => {
               </>
             </FeatureCard>
 
-          </div>
+          </motion.div>
         </Container>
       </div>
     </div>

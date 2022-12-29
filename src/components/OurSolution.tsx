@@ -12,7 +12,7 @@ const OurSolution = () => {
     <div className="our-solution p-3 p-md-5">
       <Container>
         <div className="section-header text-center mb-5">
-          <EyebrowHeadline headline="Our Solution" />
+          <EyebrowHeadline headline="Our Services" />
           <Heading>
             <>
               Our{" "}
@@ -46,7 +46,7 @@ const OurSolution = () => {
             <ListView
               items={["Distributed Computing", "One-Step Plugin Setup"]}
               icon={<BsCheck2Circle size={24} />}
-              className="fw-bold text-secondary"
+              className="fw-bold text-secondary" delay={4}
             />
           </Col>
         </Row>

@@ -2,6 +2,8 @@ import Heading from "./Heading";
 
 import { Player } from '@lottiefiles/react-lottie-player';
 import { Container } from "react-bootstrap";
+import {motion} from "framer-motion";
+
 
 const Introduction = () => {
   return (
@@ -21,11 +23,11 @@ const Introduction = () => {
 
           <Player src="decenode-globe/data.json" className="player" loop autoplay style={{ maxWidth: "500px" }} />
 
-          <p className="">
+          <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{ease:"easeInOut", duration:1.5}} className="">
             Decenode is an exponential platform resembling an "AirBNB for
             Computers", that provides <span className="fw-bold">cost</span> and <span className="fw-bold">time-efficient</span> computation to AI and ML
             developers by connecting to idle machines hosted on our <span className="fw-bold">decentralized P2P</span> network, in addition to achieving <span className="fw-bold">optimized distributed computing</span> by fusing the power of multiple computers.
-          </p>
+          </motion.p>
         </div>
       </Container>
     </div>

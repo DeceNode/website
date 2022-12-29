@@ -46,7 +46,7 @@ body {
     "robust"
     "speed";
 
-  .card {
+  .card_wrapper {
     &:nth-child(1) {
       grid-area: payment;
     }
