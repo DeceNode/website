@@ -58,16 +58,13 @@ const ListView = ({ items, icon, delay, className = "",}: ListViewProps) => {
     <motion.ul initial={"offscreen"}
             whileInView={"onscreen"}
             viewport={{ once:false, amount:0.5}}
-            transition={{ staggerChildren:0.5}}>
-<ul className={icon && "list-unstyled"}>
+            transition={{ staggerChildren:0.5}} className={icon && "list-unstyled"}>
       {items.map((item, index) => (
         <motion.li variants={textAnimate} className={`mb-3 ${icon && "d-flex align-items-center gap-2"} ${className}`} key={index}>
           {icon}
           {item}
         </motion.li>
       ))}
-    </ul>
-
             </motion.ul>
     
   );

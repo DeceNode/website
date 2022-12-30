@@ -116,20 +116,7 @@ const ProblemSpace = () => {
                 .
               </>
             </Heading>
-            {/* <div> */}
-
-            {/* <motion.ul initial="hidden" animate={animation}> */}
-            {/* <motion.ul initial={"offscreen"}
-            whileInView={"onscreen"}
-            viewport={{ once:false, amount:0.5}}
-            transition={{delayChildren: 1, staggerChildren:0.5}}> */}
-            {/* <motion.li initial={{opacity:0, translateX:50}} whileInView={{ opacity: 1}} animate={{opacity:1, translateX:0}} transition={{ duration:0.5, delay:.5}} > "Computationally intensive tasks like Artificial Intelligence and Machine Learning demand sophisticated CPUs & GPUs which are heavy on the pocket.</motion.li> */}
-            {/* <motion.li variants={textAnimate}> Computationally intensive tasks like Artificial Intelligence and Machine Learning demand sophisticated CPUs & GPUs which are heavy on the pocket.</motion.li>
-                <motion.li variants={textAnimate}> Alternatively, using cloud computation is expensive as well due to the monopolization of the cloud industry.</motion.li>
-                <motion.li variants={textAnimate}> Training using a single GPU can be extremely slow and frustrating.</motion.li> */}
-            {/* </motion.ul> */}
-
-            {/* </div> */}
+      
             <ListView
               items={[
                 "Computationally intensive tasks like Artificial Intelligence and Machine Learning demand sophisticated CPUs & GPUs which are heavy on the pocket.",

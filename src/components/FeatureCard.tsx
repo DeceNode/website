@@ -1,10 +1,13 @@
 import Card from 'react-bootstrap/Card';
 import {motion} from "framer-motion";
+import { isSpreadAssignment } from 'typescript';
 
 
 const item = {
-  hidden: { opacity: 0 },
-  show: { opacity: 1 }
+  hidden: { opacity: 0, },
+  show: { opacity: 1, transition:{type:"spring",
+  bounce:0.3, 
+  }}
 }
 
 
@@ -25,7 +28,7 @@ const FeatureCard = ({ icon, title, children }: FeatureCardProps) => {
         </motion.div>
       </div>
       <Card.Body style={{ paddingTop: "2.5em" }}>
-        <Card.Title as="h3" className='fw-bolder'>{title}</Card.Title>
+        <Card.Title as="h4" className='fw-bolder'>{title}</Card.Title>
         <Card.Text>
           {children}
         </Card.Text>

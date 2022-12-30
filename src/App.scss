@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
-$font-size-base: 1.25rem;
+$font-size-base: 1.15rem;
 
 $primary: #7151a9;
 
@@ -47,6 +47,7 @@ body {
     "speed";
 
   .card_wrapper {
+    max-width: 16em;
     &:nth-child(1) {
       grid-area: payment;
     }

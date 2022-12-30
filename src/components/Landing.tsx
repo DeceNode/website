@@ -56,7 +56,7 @@ const Landing = () => {
           <div className="menu"></div>
         </Container>
       </header>
-      <video src="Network_Connection_Background_Purple_1.mp4" muted loop autoPlay className="position-absolute top-0 start-0 w-100 h-100 " style={{ objectFit: "cover" }} />
+      <video src="Network_Connection_Background_Purple_1.mp4" muted loop autoPlay playsInline className="position-absolute top-0 start-0 w-100 h-100 " style={{ objectFit: "cover" }} />
       <Container>
         <div className="text position-relative" style={{ zIndex: "10" }}>
           <Row>
@@ -64,7 +64,7 @@ const Landing = () => {
              {/* <motion.div> */}
               {/* <h1 className="fw-bolder display-1"><span className="text-primary-gradient">  */}
               <motion.div initial="hidden" whileInView="visible" variants={container}>{placeholderText.map((item, index) => {
-        return <AnimatedText {...item} key={index} className="text-primary-gradient mt-5"/>;
+        return <AnimatedText {...item} key={index} className="text-primary-gradient mt-5 pt-5"/>;
       })}</motion.div> 
 
       <motion.div  initial="hidden"  whileInView="visible"

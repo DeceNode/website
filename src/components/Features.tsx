@@ -9,19 +9,19 @@ import {motion} from "framer-motion";
 const Features = () => {
 
   const container = {
-    hidden: { opacity: 0 },
+    hidden: { opacity: 0 , },
     show: {
-      opacity: 1,
+      opacity: 1, 
       transition: {
         staggerChildren: 0.5, 
-        ease:"easeInOut"
+        ease:"easeInOut", 
       }
     }
   }
 
   return (
     <div className="features">
-      <img src="wave-pattern.svg" style={{ width: "100%" }} alt="wave pattern" />
+      <img src="wave-pattern.svg" style={{ width: "100%"  }} alt="wave pattern" />
       <div className="features-body p-3" style={{ backgroundColor: "#3F3649" }}>
         <Container>
           <div className="section-header text-center mb-5">

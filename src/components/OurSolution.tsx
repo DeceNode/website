@@ -9,7 +9,7 @@ import Heading from "./Heading";
 
 const OurSolution = () => {
   return (
-    <div className="our-solution p-3 p-md-5">
+    <div className="our-solution px-3 pt-3 pb-1 p-md-5">
       <Container>
         <div className="section-header text-center mb-5">
           <EyebrowHeadline headline="Our Services" />
@@ -53,7 +53,7 @@ const OurSolution = () => {
           </Col>
         </Row>
 
-        <Row className="align-items-center justify-content-around mb-5">
+        <Row className="align-items-center justify-content-around">
           <Col md="auto">
             {/* <ImageResponsive
               src="Illustration-Owners.svg"
