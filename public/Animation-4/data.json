@@ -2,7 +2,7 @@
     "v": "5.9.6",
     "fr": 29.9700012207031,
     "ip": 0,
-    "op": 899.000036617021,
+    "op": 360.000014663101,
     "w": 563,
     "h": 669,
     "nm": "illustration_4",
@@ -12,7 +12,7 @@
             "id": "image_0",
             "w": 68,
             "h": 56,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_0.png",
             "e": 0
         },
@@ -20,7 +20,7 @@
             "id": "image_1",
             "w": 68,
             "h": 56,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_1.png",
             "e": 0
         },
@@ -28,7 +28,7 @@
             "id": "image_2",
             "w": 37,
             "h": 47,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_2.png",
             "e": 0
         },
@@ -36,7 +36,7 @@
             "id": "image_3",
             "w": 37,
             "h": 47,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_3.png",
             "e": 0
         },
@@ -44,7 +44,7 @@
             "id": "image_4",
             "w": 37,
             "h": 47,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_4.png",
             "e": 0
         },
@@ -52,7 +52,7 @@
             "id": "image_5",
             "w": 37,
             "h": 46,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_5.png",
             "e": 0
         },
@@ -60,7 +60,7 @@
             "id": "image_6",
             "w": 37,
             "h": 47,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_6.png",
             "e": 0
         },
@@ -68,7 +68,7 @@
             "id": "image_7",
             "w": 37,
             "h": 47,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_7.png",
             "e": 0
         },
@@ -76,7 +76,7 @@
             "id": "image_8",
             "w": 133,
             "h": 144,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_8.png",
             "e": 0
         },
@@ -84,7 +84,7 @@
             "id": "image_9",
             "w": 130,
             "h": 144,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_9.png",
             "e": 0
         },
@@ -92,7 +92,7 @@
             "id": "image_10",
             "w": 89,
             "h": 52,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_10.png",
             "e": 0
         },
@@ -100,7 +100,7 @@
             "id": "image_11",
             "w": 204,
             "h": 219,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_11.png",
             "e": 0
         },
@@ -108,7 +108,7 @@
             "id": "image_12",
             "w": 22,
             "h": 23,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_12.png",
             "e": 0
         },
@@ -116,7 +116,7 @@
             "id": "image_13",
             "w": 25,
             "h": 25,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_13.png",
             "e": 0
         },
@@ -124,7 +124,7 @@
             "id": "image_14",
             "w": 22,
             "h": 22,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_14.png",
             "e": 0
         },
@@ -132,7 +132,7 @@
             "id": "image_15",
             "w": 37,
             "h": 47,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_15.png",
             "e": 0
         },
@@ -140,7 +140,7 @@
             "id": "image_16",
             "w": 37,
             "h": 47,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_16.png",
             "e": 0
         },
@@ -148,7 +148,7 @@
             "id": "image_17",
             "w": 89,
             "h": 2,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_17.png",
             "e": 0
         },
@@ -156,7 +156,7 @@
             "id": "image_18",
             "w": 114,
             "h": 80,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_18.png",
             "e": 0
         },
@@ -164,7 +164,7 @@
             "id": "image_19",
             "w": 36,
             "h": 19,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_19.png",
             "e": 0
         },
@@ -172,7 +172,7 @@
             "id": "image_20",
             "w": 78,
             "h": 52,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_20.png",
             "e": 0
         },
@@ -180,7 +180,7 @@
             "id": "image_21",
             "w": 62,
             "h": 16,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_21.png",
             "e": 0
         },
@@ -188,7 +188,7 @@
             "id": "image_22",
             "w": 31,
             "h": 66,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_22.png",
             "e": 0
         },
@@ -196,7 +196,7 @@
             "id": "image_23",
             "w": 94,
             "h": 55,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_23.png",
             "e": 0
         },
@@ -204,7 +204,7 @@
             "id": "image_24",
             "w": 11,
             "h": 93,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_24.png",
             "e": 0
         },
@@ -212,7 +212,7 @@
             "id": "image_25",
             "w": 40,
             "h": 78,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_25.png",
             "e": 0
         },
@@ -220,7 +220,7 @@
             "id": "image_26",
             "w": 15,
             "h": 57,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_26.png",
             "e": 0
         },
@@ -228,7 +228,7 @@
             "id": "image_27",
             "w": 44,
             "h": 19,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_27.png",
             "e": 0
         },
@@ -236,7 +236,7 @@
             "id": "image_28",
             "w": 38,
             "h": 52,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_28.png",
             "e": 0
         },
@@ -244,7 +244,7 @@
             "id": "image_29",
             "w": 41,
             "h": 54,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_29.png",
             "e": 0
         },
@@ -252,7 +252,7 @@
             "id": "image_30",
             "w": 43,
             "h": 12,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_30.png",
             "e": 0
         },
@@ -260,7 +260,7 @@
             "id": "image_31",
             "w": 96,
             "h": 57,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_31.png",
             "e": 0
         },
@@ -268,7 +268,7 @@
             "id": "image_32",
             "w": 9,
             "h": 69,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_32.png",
             "e": 0
         },
@@ -276,7 +276,7 @@
             "id": "image_33",
             "w": 101,
             "h": 65,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_33.png",
             "e": 0
         },
@@ -284,7 +284,7 @@
             "id": "image_34",
             "w": 76,
             "h": 14,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_34.png",
             "e": 0
         },
@@ -292,7 +292,7 @@
             "id": "image_35",
             "w": 25,
             "h": 54,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_35.png",
             "e": 0
         },
@@ -300,7 +300,7 @@
             "id": "image_36",
             "w": 47,
             "h": 9,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_36.png",
             "e": 0
         },
@@ -308,7 +308,7 @@
             "id": "image_37",
             "w": 48,
             "h": 89,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_37.png",
             "e": 0
         },
@@ -316,7 +316,7 @@
             "id": "image_38",
             "w": 6,
             "h": 90,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_38.png",
             "e": 0
         },
@@ -324,7 +324,7 @@
             "id": "image_39",
             "w": 71,
             "h": 58,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_39.png",
             "e": 0
         },
@@ -332,7 +332,7 @@
             "id": "image_40",
             "w": 11,
             "h": 26,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_40.png",
             "e": 0
         },
@@ -340,7 +340,7 @@
             "id": "image_41",
             "w": 10,
             "h": 27,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_41.png",
             "e": 0
         },
@@ -348,7 +348,7 @@
             "id": "image_42",
             "w": 172,
             "h": 171,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_42.png",
             "e": 0
         },
@@ -356,7 +356,7 @@
             "id": "image_43",
             "w": 548,
             "h": 326,
-            "u": "decenode-globe/images/",
+            "u": "Animation-4/images/",
             "p": "img_43.png",
             "e": 0
         }
@@ -1497,352 +1497,6 @@
             "ind": 12,
             "ty": 2,
             "nm": "Layer 13_tight",
-            "refId": "image_11",
-            "sr": 1,
-            "ks": {
-                "o": {
-                    "a": 1,
-                    "k": [
-                        {
-                            "i": {
-                                "x": [
-                                    0.833
-                                ],
-                                "y": [
-                                    0.833
-                                ]
-                            },
-                            "o": {
-                                "x": [
-                                    0.167
-                                ],
-                                "y": [
-                                    0.167
-                                ]
-                            },
-                            "t": 177,
-                            "s": [
-                                0
-                            ]
-                        },
-                        {
-                            "t": 193.000007861051,
-                            "s": [
-                                100
-                            ]
-                        }
-                    ],
-                    "ix": 11
-                },
-                "r": {
-                    "a": 0,
-                    "k": 0,
-                    "ix": 10
-                },
-                "p": {
-                    "a": 0,
-                    "k": [
-                        281.432,
-                        428.391,
-                        0
-                    ],
-                    "ix": 2,
-                    "l": 2
-                },
-                "a": {
-                    "a": 0,
-                    "k": [
-                        101.994,
-                        109.243,
-                        0
-                    ],
-                    "ix": 1,
-                    "l": 2
-                },
-                "s": {
-                    "a": 1,
-                    "k": [
-                        {
-                            "i": {
-                                "x": [
-                                    0.833,
-                                    0.833,
-                                    0.833
-                                ],
-                                "y": [
-                                    0.833,
-                                    0.833,
-                                    0.833
-                                ]
-                            },
-                            "o": {
-                                "x": [
-                                    0.167,
-                                    0.167,
-                                    0.167
-                                ],
-                                "y": [
-                                    0.167,
-                                    0.167,
-                                    0.167
-                                ]
-                            },
-                            "t": 176,
-                            "s": [
-                                0,
-                                0,
-                                100
-                            ]
-                        },
-                        {
-                            "t": 193.000007861051,
-                            "s": [
-                                100,
-                                100,
-                                100
-                            ]
-                        }
-                    ],
-                    "ix": 6,
-                    "l": 2
-                }
-            },
-            "ao": 0,
-            "sy": [
-                {
-                    "c": {
-                        "a": 0,
-                        "k": [
-                            0.443137288094,
-                            0.317647069693,
-                            0.662745118141,
-                            1
-                        ],
-                        "ix": 5
-                    },
-                    "o": {
-                        "a": 0,
-                        "k": 80,
-                        "ix": 2
-                    },
-                    "s": {
-                        "a": 0,
-                        "k": 171,
-                        "ix": 10
-                    },
-                    "r": {
-                        "a": 0,
-                        "k": 44.6,
-                        "ix": 11
-                    },
-                    "ch": {
-                        "a": 0,
-                        "k": 2,
-                        "ix": 9
-                    },
-                    "bm": {
-                        "a": 0,
-                        "k": 17,
-                        "ix": 1
-                    },
-                    "no": {
-                        "a": 0,
-                        "k": 0,
-                        "ix": 3
-                    },
-                    "j": {
-                        "a": 0,
-                        "k": 0,
-                        "ix": 12
-                    },
-                    "ty": 3,
-                    "nm": "Outer Glow"
-                }
-            ],
-            "ip": 0,
-            "op": 899.000036617021,
-            "st": 0,
-            "ct": 1,
-            "bm": 0
-        },
-        {
-            "ddd": 0,
-            "ind": 13,
-            "ty": 2,
-            "nm": "Layer 13_medium",
-            "refId": "image_11",
-            "sr": 1,
-            "ks": {
-                "o": {
-                    "a": 1,
-                    "k": [
-                        {
-                            "i": {
-                                "x": [
-                                    0.833
-                                ],
-                                "y": [
-                                    0.833
-                                ]
-                            },
-                            "o": {
-                                "x": [
-                                    0.167
-                                ],
-                                "y": [
-                                    0.167
-                                ]
-                            },
-                            "t": 177,
-                            "s": [
-                                0
-                            ]
-                        },
-                        {
-                            "t": 193.000007861051,
-                            "s": [
-                                100
-                            ]
-                        }
-                    ],
-                    "ix": 11
-                },
-                "r": {
-                    "a": 0,
-                    "k": 0,
-                    "ix": 10
-                },
-                "p": {
-                    "a": 0,
-                    "k": [
-                        281.432,
-                        428.391,
-                        0
-                    ],
-                    "ix": 2,
-                    "l": 2
-                },
-                "a": {
-                    "a": 0,
-                    "k": [
-                        101.994,
-                        109.243,
-                        0
-                    ],
-                    "ix": 1,
-                    "l": 2
-                },
-                "s": {
-                    "a": 1,
-                    "k": [
-                        {
-                            "i": {
-                                "x": [
-                                    0.833,
-                                    0.833,
-                                    0.833
-                                ],
-                                "y": [
-                                    0.833,
-                                    0.833,
-                                    0.833
-                                ]
-                            },
-                            "o": {
-                                "x": [
-                                    0.167,
-                                    0.167,
-                                    0.167
-                                ],
-                                "y": [
-                                    0.167,
-                                    0.167,
-                                    0.167
-                                ]
-                            },
-                            "t": 176,
-                            "s": [
-                                0,
-                                0,
-                                100
-                            ]
-                        },
-                        {
-                            "t": 193.000007861051,
-                            "s": [
-                                100,
-                                100,
-                                100
-                            ]
-                        }
-                    ],
-                    "ix": 6,
-                    "l": 2
-                }
-            },
-            "ao": 0,
-            "sy": [
-                {
-                    "c": {
-                        "a": 0,
-                        "k": [
-                            0.443137288094,
-                            0.317647069693,
-                            0.662745118141,
-                            1
-                        ],
-                        "ix": 5
-                    },
-                    "o": {
-                        "a": 0,
-                        "k": 80,
-                        "ix": 2
-                    },
-                    "s": {
-                        "a": 0,
-                        "k": 171,
-                        "ix": 10
-                    },
-                    "r": {
-                        "a": 0,
-                        "k": 44.6,
-                        "ix": 11
-                    },
-                    "ch": {
-                        "a": 0,
-                        "k": 2,
-                        "ix": 9
-                    },
-                    "bm": {
-                        "a": 0,
-                        "k": 17,
-                        "ix": 1
-                    },
-                    "no": {
-                        "a": 0,
-                        "k": 0,
-                        "ix": 3
-                    },
-                    "j": {
-                        "a": 0,
-                        "k": 0,
-                        "ix": 12
-                    },
-                    "ty": 3,
-                    "nm": "Outer Glow"
-                }
-            ],
-            "ip": 0,
-            "op": 899.000036617021,
-            "st": 0,
-            "ct": 1,
-            "bm": 0
-        },
-        {
-            "ddd": 0,
-            "ind": 14,
-            "ty": 2,
-            "nm": "Layer 13_wide",
             "refId": "image_11",
             "sr": 1,
             "ks": {
