@@ -64,7 +64,7 @@ const Landing = () => {
              {/* <motion.div> */}
               {/* <h1 className="fw-bolder display-1"><span className="text-primary-gradient">  */}
               <motion.div initial="hidden" whileInView="visible" variants={container}>{placeholderText.map((item, index) => {
-        return <AnimatedText {...item} key={index} className="text-primary-gradient"/>;
+        return <AnimatedText {...item} key={index} className="text-primary-gradient mt-5"/>;
       })}</motion.div> 
 
       <motion.div  initial="hidden"  whileInView="visible"
@@ -76,7 +76,7 @@ const Landing = () => {
       {/* </span></h1>  */}
       {/* </motion.div>  */}
               <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:2.5, duration:0.75}}>
-                <p >We enable Machine Learning Developers gain access to affordable computation by leveraging the power of idle machines hosted on our decentralized P2P network.</p>
+                <p className="mt-4" >We enable Machine Learning Developers gain access to affordable computation by leveraging the power of idle machines hosted on our decentralized P2P network.</p>
               <Form className="my-md-5" onSubmit={handleSubmit}>
                 <Row className="align-items-start">
                   <Col md="8" className="mb-2 mb-md-0">

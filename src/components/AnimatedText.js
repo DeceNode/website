@@ -69,7 +69,6 @@ const AnimatedCharacters = (props) => {
 
   // Get the tag name from tagMap
   const Tag = tagMap[props.type];
-  console.log("Heylooo ", props.type)
 
   return (
     <Tag>
@@ -82,14 +81,15 @@ const AnimatedCharacters = (props) => {
                 <span
                   style={{
                     overflow: "hidden",
-                    display: "inline-block"
+                    display: "inline-block",
+                    marginBottom: "-20px"
                   }}
                   key={index}
                 >
                   <motion.span
-                    style={{ display: "inline-block", fontWeight:"bolder", fontSize: "60px"}}
+                    style={{ display: "inline-block"}}
                     variants={item} 
-                    className={props.className}             
+                    className={`fw-bolder display-2 ${props.className}`}             
                   >
                     {element}
                   </motion.span>
