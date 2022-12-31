@@ -1,86 +1,13 @@
 import { Row, Col, Container } from "react-bootstrap";
-import ImageResponsive from "./ImageResponsive";
 import EyebrowHeadline from "./EyebrowHeadline";
 import ListView from "./ListView";
 import Heading from "./Heading";
 import { motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import { useRef, useEffect } from "react";
-import { useAnimation } from "framer-motion";
 import { Player } from '@lottiefiles/react-lottie-player';
 
 
 const ProblemSpace = () => {
 
-  // const {ref, inView} = useInView({ threshold: 0.2});
-  // const animation = useAnimation();
-
-  // useEffect(() => {
-  //   if(inView){
-  //     animation.start({
-  //       opacity:1,
-  //       transition:{
-  //         staggerChildren: 0.5
-  //     }
-  //     });
-  //   }
-
-  //   if(!inView){
-  //     animation.start({opacity:0})
-  //   }
-  //   console.log("use effect hook, inView =", inView);
-  // }, [inView]);
-
-
-  // useEffect(() => {
-  //   if(inView){
-  //     animation1.start({
-  //       opacity:1,
-  //       transition:{
-  //         delay:.2,
-  //         duration:0.8,
-  //         ease:'easeInOut'
-  //     }
-  //     });
-  //   }
-
-  //   if(!inView){
-  //     animation1.start({opacity:0})
-  //   }
-  //   console.log("use effect hook, inView =", inView);
-  // }, [inView]);
-
-
-
-  const container = {
-    // hidden: { opacity: 0 },
-    show: {
-      // opacity: 1,
-      transition: {
-        staggerChildren: 0.5
-      }
-    }
-  }
-
-
-  const textAnimate = {
-    offscreen: { opacity: 0, x: 100, },
-    onscreen: {
-      x: 0,
-      opacity: 1,
-      transition: {
-        type: "spring",
-        bounce: 0.3, ease: "easeInOut"
-      }
-    }
-  }
-
-  const headingAnimate = {
-    y: 0,
-    opacity: 1,
-    transition:
-      { duration: 0.5, ease: "easeInOut" }
-  }
   return (
     <div className="problem-space p-3 p-md-5">
       <Container>
@@ -116,7 +43,7 @@ const ProblemSpace = () => {
                 .
               </>
             </Heading>
-      
+
             <ListView
               items={[
                 "Computationally intensive tasks like Artificial Intelligence and Machine Learning demand sophisticated CPUs & GPUs which are heavy on the pocket.",

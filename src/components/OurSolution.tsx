@@ -3,7 +3,6 @@ import { Player } from '@lottiefiles/react-lottie-player';
 import { BsCheck2Circle } from "react-icons/bs";
 import Headline from "./Headline";
 import { Row, Col, Container } from "react-bootstrap";
-import ImageResponsive from "./ImageResponsive";
 import EyebrowHeadline from "./EyebrowHeadline";
 import Heading from "./Heading";
 
