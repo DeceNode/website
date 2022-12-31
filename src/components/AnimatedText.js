@@ -20,36 +20,36 @@ const tagMap = {
 const AnimatedCharacters = (props) => {
   // Framer Motion variant object, for controlling animation
 
-  let item ={};
+  let item = {};
 
- if(props.type == "heading1"){
-   
-  item = {
-    hidden: {
-      y: "200%",
-      transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 1.5 }
-    },
-    visible: {
-      y: 0,
-      transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 1.5 }
-    }
-  };
- }
- else{
+  if (props.type === "heading1") {
 
-  item = {
-    hidden: {
-      y: "200%",
-      transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 1.5 }
-    },
-    visible: {
-      y: 0,
-      transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 1.5, delay:1 }
-    }
-  };
+    item = {
+      hidden: {
+        y: "200%",
+        transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 1.5 }
+      },
+      visible: {
+        y: 0,
+        transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 1.5 }
+      }
+    };
+  }
+  else {
 
- }
- 
+    item = {
+      hidden: {
+        y: "200%",
+        transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 1.5 }
+      },
+      visible: {
+        y: 0,
+        transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 1.5, delay: 1 }
+      }
+    };
+
+  }
+
 
   //  Split each word of props.text into an array
   const splitWords = props.text.split(" ");
@@ -87,9 +87,9 @@ const AnimatedCharacters = (props) => {
                   key={index}
                 >
                   <motion.span
-                    style={{ display: "inline-block"}}
-                    variants={item} 
-                    className={`fw-bolder display-2 ${props.className}`}             
+                    style={{ display: "inline-block" }}
+                    variants={item}
+                    className={`fw-bolder display-2 ${props.className}`}
                   >
                     {element}
                   </motion.span>
