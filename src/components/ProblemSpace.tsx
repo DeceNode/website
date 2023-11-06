@@ -9,7 +9,7 @@ import { Player } from '@lottiefiles/react-lottie-player';
 const ProblemSpace = () => {
 
   return (
-    <div className="problem-space p-3 p-md-5">
+    <div id="problem-space" className="p-3 p-md-5">
       <Container>
         {/* <Row ref={ref} className="align-items-center"> */}
         <Row className="align-items-center">

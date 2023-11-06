@@ -63,26 +63,24 @@ const Landing = () => {
         <div className="text position-relative" style={{ zIndex: "10" }}>
           <Row>
             <Col xxl="8">
-              {/* <motion.div> */}
-              {/* <h1 className="fw-bolder display-1"><span className="text-primary-gradient">  */}
-              <motion.div initial="hidden" whileInView="visible" variants={container}>{placeholderText.map((item, index) => {
+              {/* <motion.div initial="hidden" whileInView="visible" variants={container}>{placeholderText.map((item, index) => {
                 return <AnimatedText {...item} key={index} className="text-primary-gradient mt-5 pt-5" />;
               })}</motion.div>
 
               <motion.div initial="hidden" whileInView="visible"
                 variants={container1}>{placeholderText2.map((item, index) => {
                   return <AnimatedText {...item} key={index} className="text-light" />;
-                })}</motion.div>
+                })}</motion.div> */}
+                <h1 className="fw-bolder text-primary-gradient mt-5 pt-5">Tired of expensive cloud GPUs?</h1>
+                <h1 className="fw-bolder display-3"> Save 50% with Decenode* </h1>
+                <p className="h5"> Level up your ML game with affordable underutilized GPUs hosted on our platform.</p>
 
-              {/* <h1 className="fw-bolder display-1"> <br /> One Click Away. </h1> */}
-              {/* </span></h1>  */}
-              {/* </motion.div>  */}
-              <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 2, duration: 0.35 }}>
-                <p className="mt-4" >We enable Machine Learning Developers gain access to affordable computation by leveraging the power of idle machines hosted on our decentralized P2P network.</p>
-                <Form className="my-md-5" onSubmit={handleSubmit}>
+              {/* <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 2, duration: 0.35 }}> */}
+                {/* <p className="mt-4" >We enable Machine Learning Developers gain access to affordable computation by leveraging the power of idle machines hosted on our decentralized P2P network.</p> */}
+                <Form className="mt-5 mb-3" onSubmit={handleSubmit}>
                   <Row className="align-items-start">
                     <Col md="8" className="mb-2 mb-md-0">
-                      <Form.Control type="email" placeholder="Enter Email" size="lg" name="Email" onChange={(e) => setEmail(e.target.value)} value={email} />
+                      <Form.Control type="email" placeholder="Enter Email" name="Email" onChange={(e) => setEmail(e.target.value)} value={email} />
                     </Col>
                     <Col md="4">
                       <motion.div
@@ -92,18 +90,16 @@ const Landing = () => {
                           // rotate: -90,
                           borderRadius: "100%"
                         }}>
-                        <Button variant="primary" type="submit" size="lg" className={`w-100 ${loading ? 'disabled' : ''}`}>
-                          Join the waitlist
+                        <Button variant="primary" type="submit" className={`w-100 ${loading ? 'disabled' : ''}`}>
+                         Join the Waitlist
                         </Button> </motion.div>
-                    </Col>
-                    <Col>
-                      <Form.Text className="text-light">
-                        Be the first one to know when we go live!
-                      </Form.Text>
                     </Col>
                   </Row>
                 </Form>
-              </motion.div>
+                      <p className="text-light">
+                       Join the waitlist to get priority access and special discounts. We go live soon!
+                      </p>
+              {/* </motion.div> */}
             </Col>
           </Row>
         </div>
