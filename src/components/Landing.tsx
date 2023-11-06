@@ -1,8 +1,6 @@
 import { useState, FormEvent } from "react";
 import axios from 'axios';
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
-import AnimatedText from "./AnimatedText";
-import { motion } from "framer-motion";
 
 const Landing = () => {
 

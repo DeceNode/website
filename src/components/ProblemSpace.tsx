@@ -1,10 +1,8 @@
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col, Container, Image } from "react-bootstrap";
 import EyebrowHeadline from "./EyebrowHeadline";
 import ListView from "./ListView";
 import Heading from "./Heading";
 import { motion } from "framer-motion";
-import { Player } from '@lottiefiles/react-lottie-player';
-
 
 const ProblemSpace = () => {
 
@@ -28,7 +26,8 @@ const ProblemSpace = () => {
                 alt="problem space"
               /> */}
 
-              <Player src="Animation-1/data.json" className="player" loop autoplay style={{ maxWidth: "500px" }} />
+              {/* <Player src="Animation-1/data.json" className="player" loop autoplay style={{ maxWidth: "500px" }} /> */}
+              <Image src="Banknote.gif" fluid />
             </motion.div>
           </Col>
 
